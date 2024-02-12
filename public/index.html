@@ -1,0 +1,97 @@
+<!-- public/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A&A Car Rentals</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="fleet.html">Our Fleet</a></li>
+            <li><a href="booking.html">Booking</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="faqs.html">FAQs</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Banner Image -->
+    <div id="banner">
+        <img src="banner-image.jpg" alt="A&A Car Rentals Banner">
+    </div>
+
+    <h1>Welcome to A&A Car Rentals</h1>
+
+    <!-- Prominent Search Bar -->
+    <div id="search-bar">
+        <form action="booking.html" method="get">
+            <label for="pickup-date">Pickup Date:</label>
+            <input type="date" id="pickup-date" name="pickup-date" required>
+
+            <label for="return-date">Return Date:</label>
+            <input type="date" id="return-date" name="return-date" required>
+
+            <label for="vehicle-class">Vehicle Class:</label>
+            <select id="vehicle-class" name="vehicle-class" required>
+                <option value="economy">Economy</option>
+                <option value="compact">Compact</option>
+                <option value="midsize">Midsize</option>
+                <option value="fullsize">Fullsize</option>
+                <!-- Add more options based on your vehicle classes -->
+            </select>
+
+            <button type="submit">Search</button>
+        </form>
+    </div>
+</header>
+
+<section id="promotions">
+    <h2>Featured Promotions</h2>
+    <div class="promotion">
+        <img src="promotion1.jpg" alt="Promotion 1">
+        <p>Get 20% off on your first booking!</p>
+    </div>
+    <div class="promotion">
+        <img src="promotion2.jpg" alt="Promotion 2">
+        <p>Weekend Special: Enjoy a luxury car at standard rates.</p>
+    </div>
+</section>
+
+<section id="about">
+    <h2>About A&A Car Rentals</h2>
+    <p>Welcome to A&A Car Rentals, your go-to destination for affordable and reliable car rentals in Grenada. With a diverse fleet of vehicles, we offer the perfect ride for every occasion. Whether you're a tourist exploring the beautiful island or a local in need of a temporary vehicle, we've got you covered.</p>
+</section>
+
+<section id="why-choose-us">
+    <h2>Why Choose Us?</h2>
+    <ul>
+        <li>Wide Range of Vehicles</li>
+        <li>Flexible Booking Options</li>
+        <li>Competitive Pricing</li>
+        <li>Convenient Locations</li>
+        <li>Excellent Customer Service</li>
+    </ul>
+</section>
+
+<footer>
+    <div id="social-media">
+        <h3>Connect with Us</h3>
+        <ul>
+            <li><a href="https://facebook.com/aandacarrentals" target="_blank">Facebook</a></li>
+            <li><a href="https://twitter.com/aandarentals" target="_blank">Twitter</a></li>
+            <li><a href="https://instagram.com/aandacarrentals" target="_blank">Instagram</a></li>
+        </ul>
+    </div>
+    <div id="contact-info">
+        <h3>Contact Us</h3>
+        <p>Email: info@aacarrental.gd</p>
+        <p>Phone: +1(473)440-7935</p>
+    </div>
+</footer>
+</body>
+</html>
